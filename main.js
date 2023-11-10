@@ -1,16 +1,31 @@
-const https = require('https');
+// Calculator program in Node.js
 
-const searchTerm = process.argv[2];
-
-function fetchData(searchTerm) {
-  // TODO: Implement the Promise-based function to fetch data from the API based on the search term
-  
+// Function to perform addition
+function add(num1, num2) {
+  // TODO: Perform addition operation here
 }
 
-fetchData(searchTerm)
-  .then((data) => {
-    // TODO: Process the retrieved data
-  })
-  .catch((error) => {
-    // TODO: Handle any errors that occur during the API request
-  });
+// Function to perform subtraction
+function subtract(num1, num2) {
+  // TODO: Perform subtraction operation here
+}
+
+// Function to perform multiplication
+function multiply(num1, num2) {
+  // TODO: Perform multiplication operation here
+}
+
+// Function to perform division
+function divide(num1, num2) {
+  // TODO: Perform division operation here
+}
+
+// Main program
+function calculator() {
+  // TODO: Get user input for numbers and operation
+  // TODO: Call the appropriate function based on the operation
+  // TODO: Output the result
+}
+
+// Invoke the calculator function to start the program
+calculator();
